@@ -29,9 +29,9 @@ class TestCalculator(unittest.TestCase):
     #     fill in code
 
      def test_logarithm(self): # 3 assertions
-        self.assertEqual(logarithm(3,9), 3)
-        self.assertEqual(logarithm(4, 16), 2)
-        self.assertEqual(logarithm(5, 125), 3)
+        self.assertAlmostEqual(logarithm(3,9), 2)
+        self.assertAlmostEqual(logarithm(4, 16), 2)
+        self.assertAlmostEqual(logarithm(5, 125), 3)
 
      def test_log_invalid_base(self): # 1 assertion
     #     # use same technique from test_divide_by_zero
