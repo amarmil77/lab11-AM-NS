@@ -7,10 +7,13 @@ One function per operation, in order.
 import math
 
 # First example
+def
+
+
 def add(a, b): 
     a+b
 
-def substract(a, b):
+def subtract(a, b):
     a-b
 
 def multiply(a, b):
