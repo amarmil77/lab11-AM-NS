@@ -4,8 +4,11 @@ calculator.py
 
 One function per operation, in order.
 """
+
+
 import math
 
+<<<<<<< HEAD
 # First example
 def square_root(a):
     if a<0:
@@ -15,6 +18,34 @@ def square_root(a):
 
 def hypotenuse(a, b):
     return math.hypot(a, b)
+=======
+# def add(a, b):
+#     return a + b
+
+# def sub(a, b):
+#     return a - b
+
+def mul(a, b):
+    return a * b
+
+def div(a, b):
+    if a == 0:
+        raise ZeroDivisionError
+    else:
+        return b/a
+
+# def log(a, b):
+#     if a <= 0 or a==1 or b<=0:
+#         raise ValueError
+#     else:
+#         return math.log(b,a)
+
+def exp(a, b):
+    return a ** b
+
+
+
+>>>>>>> b108b5d58f8faac89e033be541bfd861619bae02
 
 
 def add(a, b): 
@@ -23,14 +54,15 @@ def add(a, b):
 def subtract(a, b):
     return a-b
 
-def multiply(a, b):
-    return a*b
+# def multiply(a, b):
+#     return a*b
+<<<<<<< HEAD
 
-def divide(a, b):
-    if a == 0:
-        raise ZeroDivisionError
-    else:
-        return b / a
+# def divide(a, b):
+#     if a == 0:
+#         raise ZeroDivisionError
+#     else:
+#         return b / a
 
 def logarithm(a, b):
     #log a(b)
@@ -39,8 +71,25 @@ def logarithm(a, b):
     else:
         return math.log(b, a)
 
-def exponent(a, b):
-    return math.pow(a, b)
+# def exponent(a, b):
+#     return math.pow(a, b)
+=======
+
+
+
+def logarithm(a, b):
+    #log a(b)git
+    if a <= 0 or a == 1 or b <= 0:
+        raise ValueError
+    else:
+        return math.log(b, a)
+
+
+# def exponent(a, b):
+#     #a**b
+#     return a ** b
+
+>>>>>>> b108b5d58f8faac89e033be541bfd861619bae02
 
 
 
