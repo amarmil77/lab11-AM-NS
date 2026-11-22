@@ -1,13 +1,13 @@
+# https://github.com/amarmil77/lab11-AM-NS.git
+# Partner 1: Annaïs Martinho
+# Partner 2: Nicholas Sebes
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
 
 One function per operation, in order.
 """
-# https://github.com/amarmil77/lab11-AM-NS.git
-# Partner 1: Annaïs Martinho
-# Partner 2: Nick Sebes
-
 
 import math
 
