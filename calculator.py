@@ -4,6 +4,9 @@ calculator.py
 
 One function per operation, in order.
 """
+# https://github.com/amarmil77/lab11-AM-NS.git
+# Partner 1: Annaïs Martinho
+# Partner 2: Nick Sebes
 
 
 import math
