@@ -1,6 +1,6 @@
 # https://github.com/amarmil77/lab11-AM-NS.git
 # Partner 1: Annaïs Martinho
-# Partner 2: Nick Sebes
+# Partner 2: Nicholas Sebes
 
 import unittest
 from calculator import *
